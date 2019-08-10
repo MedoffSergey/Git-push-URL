@@ -6,6 +6,7 @@
     "devDependencies": {},
     "dependencies": {
         "core-util-is": "^1.0.2",
+        "domurl": "^2.2.0",
         "ejs": "^2.6.2",
         "express": "^4.17.1",
         "json": "^9.0.6",

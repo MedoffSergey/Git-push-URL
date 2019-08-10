@@ -15,7 +15,7 @@ app.get('/404', function (req, res) {
 
 app.get('/:news', function (req, res) {
   console.log(req.query) ;
-  res.render('news', {newsId: req.query});
+  res.render('news', {newsId: req.params.news });
 });
 
 
